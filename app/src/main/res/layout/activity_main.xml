@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D4D4D4">
+
+    <Button
+        android:id="@+id/youtubeImg"
+        android:layout_width="349dp"
+        android:layout_height="401dp"
+        android:layout_margin="20dp"
+        android:background="@mipmap/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:padding="10dp"
+        android:text="Click on the Image Above to Start"
+        android:textAlignment="center"
+        android:textColor="#000080"
+        android:textSize="20dp" />
+
+</RelativeLayout>
